@@ -1,0 +1,182 @@
+:root {
+    --maincol: #F7737B;
+    --mainbg: #130707;
+}
+
+body {
+    background-color: #130707;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Nouveau;
+}
+
+.list {
+    width: 100%;
+    background-color: #130707;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+hr {
+    border-bottom: 2px solid #F7737B;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    display: block;
+}
+
+
+.list a {
+    display: inline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#newthread:hover{
+    text-decoration: underline;
+}
+
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    max-width: 568px;
+    border: 2px solid #F7737B;
+    border-radius: 25px;
+    margin: 50px auto auto auto;
+}
+
+
+.content {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    max-width: 400px;
+    border: 2px solid #F7737B;
+    border-radius: 25px;
+    margin: 50px auto auto auto;
+}
+
+.boards {
+    columns: 2;
+    margin: 20px;
+    display: block;
+    
+}
+
+.linkstyle {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.boardname{
+    text-align: center;
+    font-size: 20px;
+}
+
+#newthread {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+}
+
+#threadtitle{
+    font-size: 30px;
+    text-align: left;
+    display: block;
+    padding-bottom: 30px;
+    word-wrap: break-word
+}
+
+
+#thingy {
+    width: 300px;
+    height: auto;
+    padding: 0.5em;
+    border: 2px solid #F7737B;
+    margin: auto;
+}
+
+#text {
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+
+
+input[type="text"]{
+    font-family: Nouveau;
+    background-color: #311719;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    width: 268px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    word-wrap: break-word;
+    height: 130px;
+    resize: none;
+    width: 90%;
+    background-color: #311719;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: Nouveau;
+    
+}
+
+
+#aligncenter {
+    text-align: center;
+}
+
+/* #form {
+    padding-bottom: 30;
+} */
+
+.button {
+    background-color: #130707;
+    color: white;
+    border: 2px solid #F7737B;
+    height: 20px;
+    line-height: 0;
+    align-self: flex-end;
+    margin-top: 3px;
+    align-self: flex-end;
+}
+
+.minicontainer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.comment {
+
+    font-size: 16px;
+    word-wrap: break-word;
+    white-space: pre-line;
+    white-space: pre-wrap;
+}
+
+
+/* .postinfo {
+
+} */
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='font.css'>
+    <title>A</title>
+</head>
+<body>
+    <div class="list"> 
+        <a href = "index.html">Index</a>
+        [
+        <a href = "a.html"> A </a>
+        /
+        <a href = "b.html">B</a>
+        /
+        <a href = "c.html">C</a>
+        ]
+    </div>
+    <hr>
+    <div class="content">
+        <div class="boardname">/a/ - A</div>
+        <div id="newthread" onclick="newThread()" >Start a new thread</div>
+        <div id="aligncenter">
+            <div style = "display: none;"id="thingy">
+                <form id = "form" action="/r.php"> 
+                    <div id="text">Title</div>
+                    <input type = "text"  id = "title" name = "title">
+                    <div id="text">Comment</div> 
+                    <textarea style = "height: 135px"  id = "comment" name = "comment"></textarea>
+                    <div class="minicontainer">
+                        <input id = "postButton" class = "button" name ="submit" type="submit" value="Post"> 
+                    </div>
+                </form>   
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
