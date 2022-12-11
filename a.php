@@ -46,7 +46,7 @@
             <div style = "display: none;"id="thingy">
                 <form id = "form"  action="newthread.php" method = "get" target="_blank"> 
                     <div id="text">Title</div>
-                    <input type = "text"  autocomplete="off  id = "title" name = "title">
+                    <input type = "text"  autocomplete="off  id = "title" name = "title" placeholder="Title">
                     <div id="text">Comment</div> 
                     <textarea  autocomplete="off style = "height: 135px"  id = "comment" name = "comment"></textarea>
                     <div class="minicontainer">

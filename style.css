@@ -128,16 +128,21 @@ input[type="text"]{
 
 textarea {
     word-wrap: break-word;
-    height: 130px;
     resize: none;
-    width: 90%;
     background-color: #311719;
-    border: none;
     border-radius: 5px;
     color: white;
     font-size: 16px;
     font-family: Nouveau;
+    width: 100%;
+    border: none;
     
+}
+
+
+#comment {
+    height: 130px;
+    width: 90%;
 }
 
 
@@ -166,14 +171,31 @@ textarea {
     
 }
 
-.comment {
 
+
+
+
+.comment {
+    display: block;
     font-size: 16px;
     word-wrap: break-word;
     white-space: pre-line;
     white-space: pre-wrap;
 }
 
+
+.postinfo {
+    font-size: 10px;
+    word-wrap: break-word;
+    white-space: pre-line;
+    white-space: pre-wrap;
+    
+}
+
+
+.highlight{
+    color: #24E0FF;
+}
 
 /* .postinfo {
 
