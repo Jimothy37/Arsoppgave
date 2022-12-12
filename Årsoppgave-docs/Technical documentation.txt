@@ -1,0 +1,36 @@
+The system runs on Debian 11 and is installed on a server pc. PC-64.
+
+Root-password:
+Abdullahi123
+
+Username:
+abdullahi
+
+Password: 
+Textboard123
+
+IP:
+10.2.1.207
+
+Webserver:
+Apache.
+
+
+Database
+User: abdullahi
+Password: Abdullahi123
+
+Installert 09/12/22
+apache2
+mariadb
+php
+libapache2-mod-php
+php-mysql
+Followed this guide: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
+
+
+How to connect via ssh.
+Install remote ssh on vscode.
+Connect to abdullahi@10.2.1.207
+Write in the password which is Textboard123
+Open the Forum folder(ignore arsoppgave)

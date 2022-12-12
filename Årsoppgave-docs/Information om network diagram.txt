@@ -1,0 +1,2 @@
+The client is using dhcp.
+The server is on the kuben.it network so only computers connected to the kuben.it network can connect to it.
