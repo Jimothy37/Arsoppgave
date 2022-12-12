@@ -36,6 +36,10 @@
 
             <a href = "newthread.php">New thread testing</a> 
 
+            /
+
+            <a href = "example.html"  target="_blank">Example page</a> 
+
         ]
     </div>
     <hr>
