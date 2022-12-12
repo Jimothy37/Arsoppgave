@@ -34,3 +34,6 @@ Install remote ssh on vscode.
 Connect to abdullahi@10.2.1.207
 Write in the password which is Textboard123
 Open the Forum folder(ignore arsoppgave)
+
+
+Information on how set up everything is on the readme.md file.
