@@ -48,13 +48,13 @@
         <div id="newthread" onclick="newThread()" >Start a new thread</div>
         <div id="aligncenter">
             <div style = "display: none;"id="thingy">
-                <form id = "form"  action="newthread.php" method = "get" target="_blank"> 
+                <form id = "form"  action="savethread.php" method = "post" target="_blank"> 
                     <div id="text">Title</div>
                     <input type = "text"  autocomplete="off  id = "title" name = "title" placeholder="Title">
                     <div id="text">Comment</div> 
                     <textarea  autocomplete="off style = "height: 135px"  id = "comment" name = "comment"></textarea>
                     <div class="minicontainer">
-                        <input id = "postButton"  onclick="testPHP()"  class = "button" name ="submit" type="submit" value="Post"> 
+                        <input id = "postButton"  class = "button" name ="submit" type="submit" value="Post"> 
                     </div>
                 </form>   
             </div>
