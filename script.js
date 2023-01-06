@@ -24,7 +24,7 @@ function testPHP(){
 
 
 
-///
+// Fagsamtale stuff
 /* switchFruit(mango,epple);
 function switchFruit(frukt1, frukt2){
     

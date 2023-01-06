@@ -44,7 +44,10 @@ These apps are allowed to pass through the Firewall:
 
 
 TO-DO:
-Set a static ip address.    
+Set a static ip address. 
+
+Extra:
+SSH is not setup with public key authentication, this should be setup for extra security.
 
 
 
