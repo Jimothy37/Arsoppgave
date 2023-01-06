@@ -10,7 +10,7 @@ Password:
 Textboard123
 
 IP:
-10.2.1.207
+10.2.2.29
 
 Webserver:
 Apache.
@@ -20,7 +20,7 @@ Database
 User: abdullahi
 Password: Abdullahi123
 
-Installert 09/12/22
+Installed 09/12/22
 apache2
 mariadb
 php
@@ -31,9 +31,23 @@ Followed this guide: https://www.digitalocean.com/community/tutorials/how-to-ins
 
 How to connect via ssh.
 Install remote ssh on vscode.
-Connect to abdullahi@10.2.1.207
+Connect to abdullahi@10.2.2.29
 Write in the password which is Textboard123
-Open the Forum folder(ignore arsoppgave)
+Open the Forum folder.
+
+
+Firewall:
+I have enabled a firefall with ufw.
+These apps are allowed to pass through the Firewall:
+    - OpenSSH
+    -WWW full(this enables everything relating to Apache)
+
+
+TO-DO:
+Set a static ip address.    
+
+
+
 
 
 Information on how set up everything is on the readme.md file.

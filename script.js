@@ -21,3 +21,21 @@ function newThread(){
 function testPHP(){
     console.log("It works");
 }
+
+
+
+///
+/* switchFruit(mango,epple);
+function switchFruit(frukt1, frukt2){
+    
+    for(i = 0; i> arr.length; i++){
+        arr[i];
+    }
+}
+
+
+arr = ['banana', 'mango', 'appelsin', 'mandarin'];
+
+for(i = 0; i> arr.length; i++){
+    arr[i];
+} */
